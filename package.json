@@ -1,0 +1,11 @@
+{
+  "name": "justify-text-coding-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lequanos/justify-text-coding-challenge.git",
+  "author": "lequanos <lequanos@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
