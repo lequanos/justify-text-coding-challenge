@@ -8,13 +8,11 @@ const users = require('../data/users');
  */
 module.exports = (req, res, next) => {
   try {
-    const authorization = req.headers['authorization'];
+    const { token } = req.cookies;
 
-    if (!authorization) {
+    if (!token) {
       throw new Error('Vous devez être authentifié pour accéder à ce contenu');
     };
-
-    const token = authorization;
 
     const userFound = users.find((user) => user.token === token);
 

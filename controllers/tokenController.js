@@ -30,7 +30,9 @@ module.exports = {
       ],
     })
 
-    res.status(200).json({result: 'ok', data: token});
+    res.cookie('token', token);
+
+    res.status(200).json({result: 'ok'});
   },
 
 }

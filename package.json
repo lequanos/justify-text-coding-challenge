@@ -6,6 +6,7 @@
   "author": "lequanos <lequanos@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "uuid": "^8.3.2"
